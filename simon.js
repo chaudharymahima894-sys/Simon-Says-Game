@@ -17,7 +17,7 @@ document.addEventListener("keypress", function(){
     }
     
 });
-
+// this function helps in to tell that when btn flashes
 function gameFlash(btn){
 btn.classList.add("flash");
 setTimeout(function(){
