@@ -54,8 +54,8 @@ function levelUp(){
 
 function checkAns(idx){
     // console.log("curr level: " ,level);
-  
 
+// to check whether our guess is right or not
     if(userSeq[idx] === gameSeq[idx]){
       if(userSeq.length == gameSeq.length){
         setTimeout(levelUp,1000);
